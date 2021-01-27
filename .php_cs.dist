@@ -1,11 +1,13 @@
 <?php
 
 $header = <<<EOF
-This file is part of SkeletonBundle.
+This file is part of JQueryInContaoBackendBundle.
 
-(c) John Doe
-
-@license LGPL-3.0-or-later
+@package   JQueryInContaoBackendBundle
+@author    Marcel Mathias Nolte
+@copyright Marcel Mathias Nolte 2020
+@website	  https://github.com/marcel-mathias-nolte
+@license   LGPL-3.0-or-later
 EOF;
 
 $finder = PhpCsFixer\Finder::create()

@@ -1,21 +1,23 @@
 <?php
 
 /*
- * This file is part of SkeletonBundle.
- *
- * (c) John Doe
- *
- * @license LGPL-3.0-or-later
+ * This file is part of JQueryInContaoBackendBundle.
+
+ * @package   JQueryInContaoBackendBundle
+ * @author    Marcel Mathias Nolte
+ * @copyright Marcel Mathias Nolte 2020
+ * @website	  https://github.com/marcel-mathias-nolte
+ * @license   LGPL-3.0-or-later
  */
 
-namespace MarcelMathiasNolte\SkeletonBundle\DependencyInjection;
+namespace MarcelMathiasNolte\JQueryInContaoBackendBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class ContaoSkeletonExtension extends Extension
+class JQueryInContaoBackendExtension extends Extension
 {
     /**
      * {@inheritdoc}

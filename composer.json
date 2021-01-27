@@ -1,8 +1,8 @@
 {
-    "name": "marcel-mathias-nolte/contao4-base",
+    "name": "marcel-mathias-nolte/contao-jquery-in-backend",
     "type": "contao-bundle",
-    "description": "Skeleton for all my Contao 4 bundles",
-    "homepage": "https://marcel.live",
+    "description": "Bundle to provide jQuery to the Contao Open Source CMS' backend",
+    "homepage": "https://github.com/marcel-mathias-nolte",
     "license": "LGPL-3.0-or-later",
     "authors": [
         {
@@ -15,7 +15,7 @@
         },
         {
             "name": "Marcel Mathias Nolte",
-            "homepage": "https://mrcel.live"
+            "homepage": "https://github.com/marcel-mathias-nolte"
         }
     ],
     "require": {
@@ -37,20 +37,20 @@
         "symfony/phpunit-bridge": "^3.2"
     },
     "extra": {
-        "contao-manager-plugin": "MarcelMathiasNolte\\SkeletonBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "MarcelMathiasNolte\\JQueryInContaoBackendBundle\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
-            "MarcelMathiasNolte\\SkeletonBundle\\": "src/"
+            "MarcelMathiasNolte\\JQueryInContaoBackendBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MarcelMathiasNolte\\SkeletonBundle\\Tests\\": "tests/"
+            "MarcelMathiasNolte\\JQueryInContaoBackendBundle\\Tests\\": "tests/"
         }
     },
     "support": {
-        "issues": "https://github.com/marcel-mathias-nolte/contao4-base/issues",
-        "source": "https://github.com/marcel-mathias-nolte/contao4-base"
+        "issues": "https://github.com/marcel-mathias-nolte/contao-jquery-in-backend/issues",
+        "source": "https://github.com/marcel-mathias-nolte/contao-jquery-in-backend"
     }
 }
